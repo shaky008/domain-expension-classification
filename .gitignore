@@ -45,3 +45,6 @@ htmlcov/
 *.jpg
 *.jpeg
 
+# Model files
+*.task
+
