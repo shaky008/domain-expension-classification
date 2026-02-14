@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build/distribution
+build/
+dist/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env files
+.env.*
+
+# Media/output
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+
