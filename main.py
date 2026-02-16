@@ -56,6 +56,7 @@ frame_height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 while True:
     # Capture frame-by-frame
     ret, frame = cam.read()
+    frame = cv2.flip(frame, 1)  # flip the frame horizontally
     # out.write(frame)
     # if frame is read correctly ret is True
     if not ret:
